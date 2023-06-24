@@ -1,21 +1,21 @@
-## Дмитрий Чурсин
+## Dmitry Chursin
 
-#### Контакты:
-* Расположение: Россия, Майкоп
-* Электронная почта: ivi0540@gmail.com
+#### Contacts:
+* Location: Russia, Maykop
+* Email: ivi0540@gmail.com
 * GitHub: [ivi0540](https://github.com/ivi0540)
 
-#### Обо мне:
-Веб-разработчиком я никогда не работал. Хочу обучиться этой профессии. Приобрести знания и навыки для работы в этой сфере.
+#### About me:
+I have never worked as a web developer. I want to learn this profession. Acquire the knowledge and skills to work in this area.
 
-#### Навыки:
+#### Skills:
 * HTML, CSS
-* Java Script
+* JavaScript
 * PHP, Laravel
 * SQL
 
-#### Пример кода:
-Задача: дан массив элементы которого могут быть натуральными числами или новым массивом с натуральными числами, необходимо найти сумму всех чисел в массиве.
+#### Example code:
+Task: given an array whose elements can be natural numbers or a new array with natural numbers, you need to find the sum of all numbers in the array.
 ```
 let arr1 = [1, [2, 7, 8], [3, 4], [5, [6, 7]]];
 function getSum(arr) {
@@ -32,20 +32,20 @@ function getSum(arr) {
 console.log(getSum(arr1));
 ```
 
-#### Опыт работы:
-1.1 ___Место Работы:___ ГКУ РА "Центр труда и социальной защиты населения"
-1.2 ___Должность:___ Ведущий специалист отдела информационного и материально-технического обеспечения (Программист)
-1.3 ___Стаж:___ 1 Год, 1 Месяц
+#### Experience:
+1.1 ___Place of Work:___ GKU RA "Center for Labor and Social Protection of the Population"
+1.2 ___Position:___ Leading Specialist of Information and Logistics Department (Programmer)
+1.3 ___Experience:___ 1 Year, 1 Month
 
-2.1 ___Место Работы:___ Майкопский машиностроительный завод (Текущее место работы)
-2.2 ___Должность:___ Инженер-программист
-2.3 ___Стаж:___ 3 Года, 5 Месяцев
+2.1 ___Place of Work:___ Maykop Engineering Plant (Current place of work)
+2.2 ___Position:___ Software Engineer
+2.3 ___Experience:___ 3 Years, 5 Months
 
-#### Образование:
-___Учебное заведение:___ Адыгейский государственный университет
-___Специализация:___ Математическое обеспечение и администрирование информационных систем (Бакалавр)
-___Курсы по веб-разработке:___ [https://code.mu/ru/](https://code.mu/ru/markup/book/prime/)
+#### Education:
+___Educational institution:___ Adyghe State University
+___Specialization:___ Mathematical support and administration of information systems (Bachelor)
+___Web development courses:___ [https://code.mu/ru/](https://code.mu/ru/markup/book/prime/)
 
-#### Языки:
-* Русский: родной язык
-* Английский язык: А1 – начальный
+#### Languages:
+* Russian: native language
+* English: A1 - basic
