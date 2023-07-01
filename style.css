@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+#main {
+    width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+}
+#avatar{
+    width: 300px;
+    float: left;
+}
