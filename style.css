@@ -1,23 +1,24 @@
+:root {
+    --main-color: orange;
+    --background-color: white;
+}
 * {
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: gray;
-    margin: 0 auto;
     width: 80%;
-}
-
-.header {
-    border: 1px solid red;
+    margin: 0 auto;
+    background-color: gray;
+    border: 2px solid black;
 }
 
 .nav {
     display: flex;
-    align-items: stretch;
-    background-color: bisque;
     justify-content: space-between;
+    align-items: stretch;
+    background-color: var(--main-color);
 }
 
 .link-nav {
@@ -28,29 +29,24 @@ body {
 }
 
 .link-nav:hover {
-    text-decoration: underline;
-    color: bisque;
-    background-color: black;
+    color: var(--main-color);
+    background-color: var(--background-color);
 }
 
 .main {
-    background-color: aquamarine;
     display: flex;
     flex-wrap: wrap;
 }
 
-.itemCenter-section {
-    width: 100%;
-    background-color: bisque;
-    border: 1px solid red;
-    text-align: left;
+.item-section {
+    width: 50%;
+    background-color: var(--background-color);
 }
 
-.title-section {
-    background-color: aquamarine;
-    padding: 5px;
-    border-radius: 20px;
-    border: 2px solid black;
+.itemCenter-section {
+    width: 100%;
+    text-align: left;
+    background-color: var(--background-color);
 }
 
 .photo {
@@ -59,33 +55,31 @@ body {
     float: left;
 }
 
-.item-section {
-    width: 50%;
-    background-color: bisque;
-    border: 1px solid red;
+.title-section {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: var(--main-color);
+    color: black;
+}
+
+.text-section {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.example-code {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .footer {
-    background-color: bisque;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
-
+    background-color: var(--main-color);
 }
 
 .logo-RS {
     width: 100px;
 }
-
-
-/*
-указывайте элементам названия классов и стилизуйте классы,
-а не теги, не id, не сложные селекторы и т.д
-
-порядок определения стилей:
-1-позиционирование
-2-блочная модель (размеры, отступы)
-3-типографика (свойства шрифта)
-4-оформление (цвет фона, тень)
-5-анимация
-*/
